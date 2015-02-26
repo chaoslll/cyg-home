@@ -15,12 +15,14 @@ compinit
 # End of lines added by compinstall
 zstyle ':completion:*' menu select=5
 
-#zstyle ‘:completion:*’ verbose yes
-#zstyle ‘:completion:*:descriptions’ format ‘%B%d%b’
-#zstyle ‘:completion:*:messages’ format ‘%d’
-#zstyle ‘:completion:*:warnings’ format ‘No matches for: %d’
-#zstyle ‘:completion:*’ group-name ”
+# zstyle ‘:completion:*’ verbose yes
+# zstyle ‘:completion:*:descriptions’ format ‘%B%d%b’
+# zstyle ‘:completion:*:messages’ format ‘%d’
+# zstyle ‘:completion:*:warnings’ format ‘No matches for: %d’
+# zstyle ‘:completion:*’ group-name ”
 
 source ~/.zsh/spectrum.zsh
 source ~/.zsh/prompt.zsh
 source ~/.zshenv
+# funktioniert nicht
+# source ~/.zsh/zsh-syntax-highlighting.zsh
